@@ -74,7 +74,7 @@ func TestApp(t *testing.T) {
 			expectedLinkImplicits := []string{"AndroidManifest.xml"}
 
 			frameworkRes := ctx.ModuleForTests("framework-res", "android_common")
-			lineageRes := ctx.ModuleForTests("org.lineageos.platform-res", "android_common")
+			lineageRes := ctx.ModuleForTests("org.etucqzs.platform-res", "android_common")
 			expectedLinkImplicits = append(expectedLinkImplicits,
 				frameworkRes.Output("package-res.apk").Output.String())
 			expectedLinkImplicits = append(expectedLinkImplicits,

@@ -118,7 +118,7 @@ func testContext(config android.Config, bp string,
 			no_framework_libs: true,
 		}
 		android_app {
-			name: "org.lineageos.platform-res",
+			name: "org.etucqzs.platform-res",
 			no_framework_libs: true,
 		}
 	`
